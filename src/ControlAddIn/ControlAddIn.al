@@ -10,8 +10,8 @@ controladdin MyControlAddIn
     VerticalShrink = true;
     HorizontalStretch = true;
     HorizontalShrink = true;
-    Scripts = 'ControlAddIn/Script.js', 'https://code.jquery.com/jquery-3.5.1.js';
-    StartupScript = 'ControlAddIn/Init.js';
+    Scripts = 'src/ControlAddIn/Script.js', 'https://code.jquery.com/jquery-3.5.1.js';
+    StartupScript = 'src/ControlAddIn/Init.js';
 
     event Started(pTotalFiles: Integer; pRemainingFiles: Integer)
     event ProgressUpdate(pTotalFiles: Integer; pRemainingFiles: Integer)
